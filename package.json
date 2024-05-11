@@ -1,0 +1,12 @@
+{
+  "name": "@baybee/root",
+  "scripts": {
+  },
+  "workspaces": [
+    "server"
+  ],
+  "devDependencies": {
+  },
+  "dependencies": {
+  }
+}
