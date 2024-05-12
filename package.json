@@ -1,12 +1,8 @@
 {
-  "name": "@baybee/root",
-  "scripts": {
-  },
+  "name": "@noob/root",
+  "private": true,
   "workspaces": [
-    "server"
-  ],
-  "devDependencies": {
-  },
-  "dependencies": {
-  }
+    "server",
+    "packages/*"
+  ]
 }

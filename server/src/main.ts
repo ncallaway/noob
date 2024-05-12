@@ -16,7 +16,7 @@ import {
   hash,
 } from "secsync";
 import { WebSocketServer } from "ws";
-import { ClientClock, PublicKey, Repository, RepositoryId, SnapshotId, SnapshotVersion, activeSnapshot, get, set } from "./store";
+import { ClientClock, PublicKey, Repository, RepositoryId, SnapshotId, SnapshotVersion, activeSnapshot, get, set } from "src/store";
 import { produce, freeze } from "immer";
 // import { createSnapshot as createSnapshotDb } from "./database/createSnapshot";
 // import { createUpdate as createUpdateDb } from "./database/createUpdate";
